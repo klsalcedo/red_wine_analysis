@@ -15,8 +15,6 @@ def model(x_train, x_test, y_train, y_test):
     y_hat_test = linreg.predict(x_test)
     train_mse = mean_squared_error(y_train, y_hat_train)
     test_mse = mean_squared_error(y_test, y_hat_test)
-    print('Train Mean Square Error:', train_mse)
-    print('Test Mean Square Error:', test_mse)
     print('Train Root Mean Square Error:', train_mse**0.5)
     print('Test Root Mean Square Error:', test_mse**0.5)
     
