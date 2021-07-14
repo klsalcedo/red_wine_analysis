@@ -1,6 +1,6 @@
 # Predicting Wine Quality
 
-The goal of this project is to use a linear regression model to predict the quality of a wine based on it's chemical composition. Our [dataset](https://www.kaggle.com/huseyinelci/wne-qualty-by-uci) contains 6497 wines, 11 chemical features of each wine, and classifies each wine as erd or white. 
+The goal of this project is to use a linear regression model to predict the quality of a wine based on it's chemical composition. Our [dataset](https://www.kaggle.com/huseyinelci/wne-qualty-by-uci) contains 6497 wines, 11 chemical features of each wine, and classifies each wine as red or white. 
 
 Our baseline model has an R-squared value of 0.290 and several insignificant p-values. However, the RMSE for train and test sets are 0.732 and 0.735 respectively, indicating that this model does a reasonable job predicting quality and the model is not over- or under- fit to the data. 
 
